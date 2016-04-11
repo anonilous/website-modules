@@ -1,0 +1,30 @@
+/*
+ * Vars
+ */
+/*
+ * Mixins
+ */
+/*
+ * Main and utils
+ */
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9099ae;
+  background-color: #f9f9f9;
+  height: 100vh;
+}
+/* Square card */
+.card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
