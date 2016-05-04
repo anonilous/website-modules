@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+    text-align: center;
+	background: #EAEDEC;
+	padding-top: 70px; /* for fixed top bar */
+	/* padding-top: 120px; for scrolling-nav top bar */
+}
+
+/* Make Top Navbar float left */
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+a:hover {
+	color: #0074a2;
+	text-decoration: none;
+}
+
+/* Sidebar Styles */
+.sidebar-nav {
+	position: fixed;
+	width: 200px;
+	-webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+	/*margin: 50px 6px; sidebar与navbar无缝衔接*/
+}
+
+.sidebar-nav .nav-header { 
+	
+	border: 1px solid transparent;
+	display: block;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 2.5em;
+	padding: 0em .25em;
+	margin-bottom: 0px;
+	text-shadow: none;
+	text-transform: none;
+
+}
+
+.sidebar-nav .nav-header .label {
+	float: right;
+	margin-top: .5em;
+	margin-right: .25em;
+	line-height: 1.5em;
+}
+
+.sidebar-nav .nav-header:hover {
+	background: #333333;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333),
+		color-stop(1, #454545) );
+	background: -ms-linear-gradient(bottom, #333333, #454545);
+	background: -moz-linear-gradient(center bottom, #333333 0%, #454545 100%);
+	background: -o-linear-gradient(bottom, #333333, #454545);
+	filter: progid:  dximagetransform.microsoft.gradient(startColorStr='#e6e6e6',
+		EndColorStr='#ffffff' );
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorStr='#454545',EndColorStr='#333333')";
+}
+
+.sidebar-nav .nav-header.collapsed .icon-chevron-up::before {
+	content: "\f078";
+}
+
+.sidebar-nav .nav-header .icon-chevron-up {
+	float: right;
+}
+
+.sidebar-nav .nav-header .label {
+	float: right;
+	margin-top: .7em;
+	line-height: 1.5em;
+}
+
+.sidebar-nav .nav-header i[class^="icon-"] {
+	margin-right: .75em;
+}
+
+.sidebar-nav .nav-list {
+	margin: 0px;
+	background: #2e2e2e;
+	border: 0px;
+}
+
+.sidebar-nav .nav-list>li>a:hover {
+	background: #262626;
+	/*鼠标悬停变深蓝色*/
+	color: #0074a2;
+	/*鼠标悬停指针变手型*/
+	cursor: pointer;
+}
+
+.sidebar-nav .nav-list>.active>a,.sidebar-nav .nav-list>.active>a:hover
+	{
+	background: #262626;
+}
+
+.sidebar-nav .nav-list>li>a {
+	color: #ddd;
+	text-shadow: none;
+	padding: .5em 1em;
+}
+
+.sidebar-nav .nav-list.collapse {
+	border-bottom: 0px;
+}
+
+.margin-top {
+	margin-top: 70px;
+}
